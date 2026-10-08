@@ -1,0 +1,12 @@
+{% extends 'portfolio/base.html' %}
+{% load static %}
+
+{% block title %}Главная — Портфолио{% endblock %}
+
+{% block content %}
+<section class="hero">
+    <img src="{% static 'images/avatar.jpg' %}" alt="Аватар" class="avatar">
+    <h1>Привет! Я разработчик</h1>
+    <p>Добро пожаловать на мой сайт-портфолио.</p>
+</section>
+{% endblock %}
